@@ -7,12 +7,11 @@ public class Zoo {
         animal2.details();
         Bird bird1 = new Bird("Flamingo", "Male", 2);
         bird1.details();
-        bird1.fly();
         Fish fish1 = new Fish("Salmon", "Male", 4);
         fish1.swim();
+        Sparrow sp1 = new Sparrow("Sparrow", "Female", 1);
+        sp1.details();
 
-        Chicken chick1 = new Chicken("Rooster", "Male", 1);
-        chick1.details();
-        chick1.fly();
+        sp1.fly();
     }
 }
