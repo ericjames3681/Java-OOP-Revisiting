@@ -10,5 +10,9 @@ public class Zoo {
         bird1.fly();
         Fish fish1 = new Fish("Salmon", "Male", 4);
         fish1.swim();
+
+        Chicken chick1 = new Chicken("Rooster", "Male", 1);
+        chick1.details();
+        chick1.fly();
     }
 }
