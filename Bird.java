@@ -4,4 +4,9 @@ public class Bird extends Animal {
         super(species, gender, age);
     }
 
+    public void move() {
+        System.out.println("Flapping wings...");
+
+    }
+
 }

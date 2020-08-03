@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     String species;
     String gender;
     int age;
@@ -20,5 +20,7 @@ public class Animal {
     public void eat() {
         System.out.println("Our " + species + " is eating");
     }
+
+    public abstract void move();
 
 }
