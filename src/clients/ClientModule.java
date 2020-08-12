@@ -1,3 +1,5 @@
+package src.clients;
+
 public class ClientModule {
 
     public static void main(String arg[]) {

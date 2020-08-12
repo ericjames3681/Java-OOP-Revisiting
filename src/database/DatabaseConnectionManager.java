@@ -1,4 +1,5 @@
 // import java.sql.SQLException;
+package src.database;
 
 public class DatabaseConnectionManager {
     // private Connection conn;
