@@ -1,10 +1,16 @@
 package src.clients;
 
+import src.domain.Employee;
+
+import src.reporting.EmployeeReportFormatter;
+import src.reporting.FormatType;
+
 public class ClientModule {
 
     public static void main(String arg[]) {
         Employee peggy = new Employee(1, "peggy", "accounting", true);
         ClientModule.hireNewEmployee(peggy);
+        printEmployeeReport(peggy);
     }
 
     public static void hireNewEmployee(Employee employee) {
@@ -20,6 +26,7 @@ public class ClientModule {
     }
 
     public static void printEmployeeReport(Employee employee) {
-
+        EmployeeReportFormatter formatter = new EmployeeReportFormatter(employee, FormatType.CSV);
+        System.out.println(formatter.getFormattedEmployee());
     }
 }

@@ -1,4 +1,6 @@
 
+import src.domain.Employee;
+
 public class EmployeeDAO {
     public void saveEmployee(Employee employee) {
         // DatabaseConnectionManager connectionManager =
